@@ -12,7 +12,7 @@
   z-index: 1000;
 }
 .skip-link:focus {
-  transform: translateY(0);
+  transform: translateY(0);      
   outline: none;
   box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 35%, transparent);
 }
