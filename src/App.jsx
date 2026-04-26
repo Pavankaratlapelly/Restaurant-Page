@@ -190,7 +190,7 @@ function App() {
 
     for (const el of elements) observer.observe(el)
     return () => observer.disconnect()
-  }, [reduceMotion])
+  }, [reduceMotion])        
 
   useEffect(() => {
     let raf = 0
